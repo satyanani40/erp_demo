@@ -1,0 +1,84 @@
+
+Running backup for site1.local
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/weber/Desktop/websocerp/werp/env/bin/frappe", line 9, in <module>
+    load_entry_point('frappe==4.6.1', 'console_scripts', 'frappe')()
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 39, in main
+    ret = run(fn, args)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 83, in run
+    out = globals().get(fn)(**args)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 67, in new_fn
+    return fn(*args, **new_kwargs)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 487, in backup
+    odb = scheduled_backup(ignore_files=not with_files, backup_path_db=backup_path_db, backup_path_files=backup_path_files)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 142, in scheduled_backup
+    odb = new_backup(older_than, ignore_files, backup_path_db=backup_path_db, backup_path_files=backup_path_files)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 146, in new_backup
+    delete_temp_backups(older_than=168)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 157, in delete_temp_backups
+    file_list = os.listdir(get_backup_path())
+OSError: [Errno 2] No such file or directory: './site1.local/private/backups'
+
+Running backup for site1.local
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/weber/Desktop/websocerp/werp/env/bin/frappe", line 9, in <module>
+    load_entry_point('frappe==4.6.1', 'console_scripts', 'frappe')()
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 39, in main
+    ret = run(fn, args)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 83, in run
+    out = globals().get(fn)(**args)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 67, in new_fn
+    return fn(*args, **new_kwargs)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 487, in backup
+    odb = scheduled_backup(ignore_files=not with_files, backup_path_db=backup_path_db, backup_path_files=backup_path_files)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 142, in scheduled_backup
+    odb = new_backup(older_than, ignore_files, backup_path_db=backup_path_db, backup_path_files=backup_path_files)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 146, in new_backup
+    delete_temp_backups(older_than=168)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 157, in delete_temp_backups
+    file_list = os.listdir(get_backup_path())
+OSError: [Errno 2] No such file or directory: './site1.local/private/backups'
+
+Running backup for site1.local
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/weber/Desktop/websocerp/werp/env/bin/frappe", line 9, in <module>
+    load_entry_point('frappe==4.6.1', 'console_scripts', 'frappe')()
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 39, in main
+    ret = run(fn, args)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 83, in run
+    out = globals().get(fn)(**args)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 67, in new_fn
+    return fn(*args, **new_kwargs)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 487, in backup
+    odb = scheduled_backup(ignore_files=not with_files, backup_path_db=backup_path_db, backup_path_files=backup_path_files)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 142, in scheduled_backup
+    odb = new_backup(older_than, ignore_files, backup_path_db=backup_path_db, backup_path_files=backup_path_files)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 146, in new_backup
+    delete_temp_backups(older_than=168)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 157, in delete_temp_backups
+    file_list = os.listdir(get_backup_path())
+OSError: [Errno 2] No such file or directory: './site1.local/private/backups'
+
+Running backup for site1.local
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/home/weber/Desktop/websocerp/werp/env/bin/frappe", line 9, in <module>
+    load_entry_point('frappe==4.6.1', 'console_scripts', 'frappe')()
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 39, in main
+    ret = run(fn, args)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 83, in run
+    out = globals().get(fn)(**args)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 67, in new_fn
+    return fn(*args, **new_kwargs)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/cli.py", line 487, in backup
+    odb = scheduled_backup(ignore_files=not with_files, backup_path_db=backup_path_db, backup_path_files=backup_path_files)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 142, in scheduled_backup
+    odb = new_backup(older_than, ignore_files, backup_path_db=backup_path_db, backup_path_files=backup_path_files)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 146, in new_backup
+    delete_temp_backups(older_than=168)
+  File "/home/weber/Desktop/websocerp/werp/apps/frappe/frappe/utils/backups.py", line 157, in delete_temp_backups
+    file_list = os.listdir(get_backup_path())
+OSError: [Errno 2] No such file or directory: './site1.local/private/backups'
